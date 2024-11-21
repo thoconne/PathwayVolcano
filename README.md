@@ -1,4 +1,4 @@
-# PathwayVolcano
+# PathwayVolcano:  Latest version = Pathway_specific_volcano_082024_v4.R
 To use Pathway Volcano, the user will have to have a version of R and RStudio loaded.  For instructions on downloading and installing R visit the Comprehensive R Archive Network (CRAN) http://cran.r-project.org/ and select the download appropriate for your system.  To install RStudio visit the RStudio download page at http://posit.co/download/rstudio-desktop/ and select the download appropriate for your system.  Follow the prompts on the downloaded installers for each program.
 
 Pathway Volcano is an R Shiny script that uses the Reactome API along with graphical functions in R to generate pathway specific volcano plots for differential expression data.
