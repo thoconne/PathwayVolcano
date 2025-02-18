@@ -37,4 +37,5 @@ Workflow to demonstrate use of PathwayVolcano provided in the file Example_Analy
 ![Example_Analysis](../docs/Example_Analysis.md)
 
 # References
-Include any relevant citations for Reactome or other resources.
+Pathway Volcano: An interactive tool for pathway guided visualization of differential expression data, Thomas M. O'Connell 
+BioRxv doi: https://doi.org/10.1101/2024.11.21.624662
