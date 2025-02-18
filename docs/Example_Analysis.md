@@ -28,5 +28,5 @@ At any point the sliders to adjust the thresholds for Fold Change, P-value, Font
 Selecting which pathways to examine using this tool can be influenced by many factors.  Additional experimental data or even biological intuition can guide the exploration.  An efficient way to select pathway is to input the significantly altered genes into an over-enrichment or over-representation analysis tool.  The 284 significantly altered genes from this dataset were uploaded to the Reactome Overrepresentation analysis and the top two pathways were Interleukin-10 Signaling (R-HSA-6783783) and the broader Signaling by Interleukins (R-HSA-449147).  Expansions of the volcano plots focusing on these two pathways are shown below.  
 
 Note that the list of genes in your dataset that are part of the specified pathway can be downloaded by clicking on the Download Gene Table button at the bottom of the red panel on the left.  
-![Image7](./images/image7.png)
+![Image7](../images/image7.png)
 
