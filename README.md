@@ -17,7 +17,7 @@ library(ReactomeContentService4R)
 
 **Differential Expression File Input**
 
-The input must be a csv file that contains a column for GeneSymbols, log2FoldChange and padj.  The column names must be exactly as written (case sensitive).  Any additional columns in your dataset will be ignored.  
+The input must be a csv file that contains a column for GeneSymbols, log2FoldChange and padj.  The column names must be exactly as written (case sensitive).  Any additional columns in your dataset will be ignored. Example data is in the data directory [Example Data](data/GSE51931_Cachexia_vs_Control_Liver.csv) 
 
 **Launching the Program**
 
