@@ -1,0 +1,13 @@
+Package: PathwayVolcano
+Type: Package
+Title: Pathway-Specific Volcano Plots for Differential Expression Analysis
+Version: 0.99.0
+Authors@R: person("Your", "Name", email="your_email@example.com", role=c("aut", "cre"))
+Description: A Shiny application that integrates Reactome API to generate pathway-specific volcano plots for differential expression data.
+License: MIT
+Depends: R (>= 4.0)
+Imports: shiny, ggplot2, dplyr, ReactomeContentService4R, plotly, tidyverse
+Suggests: testthat, knitr, rmarkdown
+biocViews: Visualization, Pathways, DifferentialExpression, GUI
+Encoding: UTF-8
+LazyData: true
