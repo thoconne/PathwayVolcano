@@ -25,12 +25,15 @@ runShinyApp()
 ```
 
 # Features
-- Interactive volcano plots
-- Reactome pathway integration
-- Adjustable filtering options
+- Interactive volcano plots filtered by Reactome pathways
+- Adjustable thresholds for log2 fold change and pvalues
+- Interactive visualization includes zoom, pan box select, lasso select, autoscale, reset axes
+- adjustable labeling of genes (on/off), font size and offset.
+- Simple download of png files
+- Simple download of pathway selected gene lists including log2 fold change and p-value
 
 # Example Analysis
-Provide an example dataset and workflow to demonstrate how to use PathwayVolcano.
+Workflow to demonstrate use of PathwayVolcano provided in .
 
 # References
 Include any relevant citations for Reactome or other resources.
