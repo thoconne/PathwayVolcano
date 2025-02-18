@@ -23,5 +23,5 @@ The input must be a csv file that contains a column for GeneSymbols, log2FoldCha
 
 To launch the program, simply load the R script in R Studio and select Run App at the top right of the program window.   The program will appear in a web page.  The program calls the Reactome API and a list of all pathways is generated which in the current version of Reactome (version 91, released Feb 10th, 2024), contain 2751 pathways. 
 
-See **Cancer Cachexia Analysis** in the docs directory to see a fully worked example.  
+See **Cancer Cachexia Analysis** in the docs directory to see a fully worked example. [Example Analysis](docs/Example_Analysis.md)  
 
