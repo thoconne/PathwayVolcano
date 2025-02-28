@@ -6,7 +6,7 @@ Authors@R: person("Your", "Name", email="your_email@example.com", role=c("aut", 
 Description: A Shiny application that integrates Reactome API to generate pathway-specific volcano plots for differential expression data.
 License: MIT
 Depends: R (>= 4.0)
-Imports: shiny, ggplot2, dplyr, ReactomeContentService4R, plotly, tidyverse
+Imports: shiny, ggplot2, dplyr, ReactomeContentService4R, plotly, tidyverse, edgeR, limma, DESeq2, calibrate, AnnotationDbi, GenomicRanges
 Suggests: testthat, knitr, rmarkdown
 biocViews: Visualization, Pathways, DifferentialExpression, GUI
 Encoding: UTF-8
