@@ -18,7 +18,6 @@ Imports:
     ggrepel,
     shiny,
     dplyr,
-    tidyverse,
     ReactomeContentService4R
 Suggests: 
     testthat,

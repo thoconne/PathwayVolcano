@@ -20,3 +20,8 @@ __pycache__/
 
 # Ignore Shiny app logs
 shinyapps.log
+.Rproj.user
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
