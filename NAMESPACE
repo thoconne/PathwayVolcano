@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 #export(runShinyApp)
-=======
-export(runShinyApp)
->>>>>>> dce3ff7d48816ba668a7ca8e8bab33d07ab3795b
 import(shiny)
 import(ggplot2)
 import(dplyr)
