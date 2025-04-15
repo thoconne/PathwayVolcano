@@ -1,0 +1,41 @@
+---
+title: "PathwayVolcano: Pathway-Specific Volcano Plots"
+output: BiocStyle::html_document
+vignette: >
+  %\VignetteIndexEntry{PathwayVolcano}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+PathwayVolcano is an interactive Shiny application for generating pathway-specific volcano plots for differential expression data.
+
+# Installation
+To install this package from Bioconductor:
+```r
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("PathwayVolcano")
+```
+
+# Usage
+```r
+library(PathwayVolcano)
+runShinyApp()
+```
+
+# Features
+- Interactive volcano plots filtered by Reactome pathways
+- Adjustable thresholds for log2 fold change and pvalues
+- Interactive visualization includes zoom, pan box select, lasso select, autoscale, reset axes
+- adjustable labeling of genes (on/off), font size and offset.
+- Simple download of png files
+- Simple download of pathway selected gene lists including log2 fold change and p-value
+
+# Example Analysis
+Workflow to demonstrate use of PathwayVolcano provided in the file Example_Analysi.md in the doc directory 
+![Example_Analysis](../docs/Example_Analysis.md)
+
+# References
+Pathway Volcano: An interactive tool for pathway guided visualization of differential expression data, Thomas M. O'Connell 
+BioRxv doi: https://doi.org/10.1101/2024.11.21.624662
