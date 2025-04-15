@@ -4,9 +4,9 @@ Title: Pathway-Specific Volcano Plots for Differential Expression Analysis
 Version: 0.1.0
 Authors@R: 
     person("Thomas", "O'Connell", email = "thoconne@iu.edu", role = c("aut", "cre"))
-Description: An interactive Shiny application that integrates the Reactome API 
+Description: An interactive Shiny application that integrates the 'Reactome' API 
     to generate pathway-specific volcano plots for differential expression results. 
-    Designed to support visual analysis and exploration of pathway-level omics data such as transcriptomics.
+    Designed to support visual analysis and exploration of pathway-level 'omics' data such as 'transcriptomics'.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
