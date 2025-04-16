@@ -1,5 +1,4 @@
 library(ggplot2)
-library(plotly)
 library(shiny)
 library(dplyr)
 library(stringr)
@@ -324,7 +323,7 @@ server <- function(input, output) {
       }
     }
     
-    ggplotly(p)
+    plotly::ggplotly(p)
   })
 }
 

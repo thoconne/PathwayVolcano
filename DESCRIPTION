@@ -13,7 +13,6 @@ LazyData: true
 Depends: R (>= 4.0)
 Imports: 
     stringr,
-    plotly,
     ggplot2,
     shiny,
     dplyr,
