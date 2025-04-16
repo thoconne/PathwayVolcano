@@ -12,10 +12,9 @@ Encoding: UTF-8
 LazyData: true
 Depends: R (>= 4.0)
 Imports: 
-    calibrate,
+    stringr,
     plotly,
     ggplot2,
-    ggrepel,
     shiny,
     dplyr,
     ReactomeContentService4R
