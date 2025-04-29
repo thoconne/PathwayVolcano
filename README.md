@@ -23,6 +23,9 @@ To use Pathway Volcano, the user will have to have a version of R and RStudio lo
 For instructions on downloading and installing R visit the Comprehensive R Archive Network (CRAN) http://cran.r-project.org/ and select the download appropriate for your system.  
 To install RStudio visit the RStudio download page at http://posit.co/download/rstudio-desktop/ and select the download appropriate for your system.  Follow the prompts on the downloaded installers for each program.
 
+**Install ReactomeContentService4R:**  Prior to installing Pathway Volcano you must install the ReactomeContentService4R package to enable the connection to the Reactome database 
+- remotes::install_github("reactome/ReactomeContentService4R")
+
  **Installation of Pathway Volcano:**  install the package from CRAN by entering the following command in R studio to install
 
 - install.packages("PathwayVolcano")
