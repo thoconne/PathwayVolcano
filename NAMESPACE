@@ -1,4 +1,4 @@
-#export(runShinyApp)
+export(runPathwayVolcano)
 import(shiny)
 import(ggplot2)
 import(dplyr)

@@ -142,7 +142,7 @@ ui <- fluidPage(
       downloadButton("download_data", "Download Gene Table")
     ),
     mainPanel(
-      plotlyOutput("scatterplot", height = "600px", width = "800px"),
+      plotly::plotlyOutput("scatterplot", height = "600px", width = "800px"),
       
       # Display modified data table
       dataTableOutput("modified_table")
@@ -293,7 +293,7 @@ server <- function(input, output) {
   )
   
   # Plotting logic
-  output$scatterplot <- renderPlotly({
+  output$scatterplot <- plotly::renderPlotly({
     # Check if the modified data frame contains a message
     if ("Message" %in% names(modified_data())) {
       # If so, display the message as a plot title
