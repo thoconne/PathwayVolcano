@@ -1,10 +1,9 @@
 **Example Analysis**
-
-The file GSE51931_Cachexia_vs_Control_Liver.csv was extracted from the GEO database and will be used to show the workflow of a typical analysis (Gilabert et al., Pancreatic cancer-induced cachexia is Jak2-dependent in mice, J Cell Physiol, 10, 1437, 2014).  Below is the window showing the input of the dataset in the Upload Data File box.  To see the entire dataset, input the word ALL into the Enter Reactome Pathway ID.
+When you select the **Use Example Dataset** option, the file GSE51931_Cachexia_vs_Control_Liver.csv will be loaded.  This file was extracted from the GEO database and will be used to show the workflow of a typical analysis (Gilabert et al., Pancreatic cancer-induced cachexia is Jak2-dependent in mice, J Cell Physiol, 10, 1437, 2014).  Below is the window showing the input of the dataset in the Upload Data File box.  To see the entire dataset, input the word ALL into the Enter Reactome Pathway ID.
 
 ![Image2](../images/image2.png)
 
-The Enter Pathway Query Term box allows the user to enter a term which will then return a list of all of the Reactome Pathways with that term in the name.  
+After pressing Use Example Dataset, type *All** into the Enter Pathway ID box.  This will show the whole dataset.  The Enter Pathway Query Term box allows the user to enter a term which will then return a list of all of the Reactome Pathways with that term in the name.  
 
 **Visualizing Data for Different Pathways**
 
