@@ -1,0 +1,27 @@
+# Ignore R history and session data
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore R package dependencies
+renv/
+renv.lock
+
+# Ignore compiled files and caches
+__pycache__/
+*.o
+*.so
+*.dll
+
+# Ignore Shiny app logs
+shinyapps.log
+.Rproj.user
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto

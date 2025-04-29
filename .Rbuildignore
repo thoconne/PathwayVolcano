@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^Install_PathwayVolcano\.R$
+^cran-comments\.md$
+^docs$
+^images$
